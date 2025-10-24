@@ -1,6 +1,6 @@
-
 import { useEffect, useState } from 'react';
 import { Mail, Linkedin, Github } from 'lucide-react';
+import profilePhoto from '@/assets/profile-photo.jpeg';
 
 const HeroSection = () => {
   const [isTypingDone, setIsTypingDone] = useState(false);
@@ -23,9 +23,11 @@ const HeroSection = () => {
           {/* Profile Image */}
           <div className={`w-48 h-48 md:w-64 md:h-64 relative ${isTypingDone ? 'animate-fade-in' : 'opacity-0'}`} style={{ animationDelay: '0.5s' }}>
             <div className="w-full h-full rounded-full overflow-hidden border-2 border-terminal-green relative">
-              <div className="absolute inset-0 bg-terminal-gray flex items-center justify-center text-terminal-green">
-                <span className="text-6xl">DR</span>
-              </div>
+              <img 
+                src={profilePhoto} 
+                alt="Divya R - Full Stack Developer & AI Specialist" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="absolute -inset-1 rounded-full bg-transparent border border-terminal-green animate-pulse-glow opacity-70"></div>
           </div>
