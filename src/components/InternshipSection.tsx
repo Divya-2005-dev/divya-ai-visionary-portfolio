@@ -17,11 +17,18 @@ const internships = [
     description: "Gained hands-on experience in battery production processes, quality control procedures, and understanding the intricacies of power storage solutions."
   },
   {
-    company: "Microtech CNC",
+    company: "Microtech CNC Pvt Ltd",
     position: "Intern",
     period: "",
     area: "CNC Operations",
-    description: "Learned about computer numerical control machines and their programming, understanding precision manufacturing techniques."
+    description: "Gained comprehensive exposure to advanced CNC machining operations and precision manufacturing processes. Worked extensively with computer numerical control programming, understanding G-code development and machine operation protocols. Developed skills in CAD/CAM software integration and learned about quality assurance in precision engineering. Enhanced technical knowledge of automated manufacturing systems and their real-world industrial applications."
+  },
+  {
+    company: "Flipkart",
+    position: "Intern",
+    period: "",
+    area: "E-Commerce Technology",
+    description: "Contributed to one of India's leading e-commerce platforms, working on scalable web solutions and understanding large-scale system architecture. Collaborated with cross-functional teams to optimize user experience and implement data-driven features for enhanced customer engagement. Gained valuable insights into agile development methodologies, cloud infrastructure, and the technical challenges of serving millions of users. Developed practical skills in modern web technologies while understanding the business logic behind successful digital commerce platforms."
   },
   {
     company: "CodSoft",
