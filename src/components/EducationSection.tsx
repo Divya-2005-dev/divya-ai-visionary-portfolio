@@ -7,8 +7,8 @@ const educationData = [
     specialization: "Electronics and Communication Engineering",
     institution: "Anna University",
     period: "2022 - 2026",
-    score: "9.08 CGPA",
-    percentage: 90.8
+    score: "9.10 CGPA",
+    percentage: 91
   },
   {
     degree: "Higher Secondary Education",

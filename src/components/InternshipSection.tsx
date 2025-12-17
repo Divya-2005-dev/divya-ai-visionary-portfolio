@@ -3,6 +3,27 @@ import { useEffect, useRef } from 'react';
 
 const internships = [
   {
+    company: "Flipkart SCOA",
+    position: "Operation and System Intern",
+    period: "July 1 - August 5",
+    area: "E-Commerce Operations",
+    description: "Managed 500+ e-commerce product listings and order data with 100% accuracy. Gained exposure to enterprise-level workflows, motivating transition into full stack development."
+  },
+  {
+    company: "Codsoft",
+    position: "Intern",
+    period: "September 20 - October 20",
+    area: "Web Development",
+    description: "Built and deployed 3 projects (Landing Page, Calculator, Portfolio) with 100% responsive design using HTML, CSS, and JavaScript. Improved frontend efficiency by 85% through clean UI design and optimized code structure. Enhanced web development proficiency by 90%, applying modern design and coding practices."
+  },
+  {
+    company: "Neel Metal Pvt Ltd",
+    position: "Intern",
+    period: "",
+    area: "Manufacturing & Engineering",
+    description: "Gained hands-on experience in metal manufacturing processes and industrial automation. Worked on quality control procedures and learned about precision engineering workflows. Developed understanding of production line optimization and safety protocols in manufacturing environments."
+  },
+  {
     company: "Titan Pvt Ltd",
     position: "Intern",
     period: "",
@@ -21,21 +42,7 @@ const internships = [
     position: "Intern",
     period: "",
     area: "CNC Operations",
-    description: "Gained comprehensive exposure to advanced CNC machining operations and precision manufacturing processes. Worked extensively with computer numerical control programming, understanding G-code development and machine operation protocols. Developed skills in CAD/CAM software integration and learned about quality assurance in precision engineering. Enhanced technical knowledge of automated manufacturing systems and their real-world industrial applications."
-  },
-  {
-    company: "Flipkart",
-    position: "Intern",
-    period: "",
-    area: "E-Commerce Technology",
-    description: "Contributed to one of India's leading e-commerce platforms, working on scalable web solutions and understanding large-scale system architecture. Collaborated with cross-functional teams to optimize user experience and implement data-driven features for enhanced customer engagement. Gained valuable insights into agile development methodologies, cloud infrastructure, and the technical challenges of serving millions of users. Developed practical skills in modern web technologies while understanding the business logic behind successful digital commerce platforms."
-  },
-  {
-    company: "CodSoft",
-    position: "Intern",
-    period: "",
-    area: "Artificial Intelligence",
-    description: "Developed AI-driven applications and gained practical experience in implementing machine learning models for real-world problems."
+    description: "Gained comprehensive exposure to advanced CNC machining operations and precision manufacturing processes. Worked extensively with computer numerical control programming, understanding G-code development and machine operation protocols. Developed skills in CAD/CAM software integration and learned about quality assurance in precision engineering."
   }
 ];
 
@@ -83,6 +90,10 @@ const InternshipSection = () => {
                   {internship.area}
                 </span>
               </div>
+              
+              {internship.period && (
+                <p className="text-terminal-green-light text-sm mb-2 font-mono">{internship.period}</p>
+              )}
               
               <p className="text-terminal-light-gray mb-4">
                 {internship.description}
