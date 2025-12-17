@@ -6,14 +6,14 @@ const projects = [
     title: "Text-to-Image Converter",
     description: "An advanced web application that transforms textual descriptions into high-quality images using AI. Includes user authentication, secure payment integration, and responsive design.",
     technologies: ["React", "Node.js", "Mongoose", "Razorpay"],
-    link: "#",
+    link: "https://github.com/Divya-2005-dev/texttoimageapp.git",
     image: "placeholder.svg"
   },
   {
     title: "Health Tracker",
     description: "A comprehensive health monitoring system that leverages sensor APIs to track physical activity, heart rate, and other health metrics in real-time.",
     technologies: ["HTML", "CSS", "JavaScript", "Sensor APIs"],
-    link: "#",
+    link: "https://github.com/Divya-2005-dev/texttoimageapp.git",
     image: "placeholder.svg"
   },
   {
@@ -89,9 +89,11 @@ const ProjectsSection = () => {
                 
                 <a 
                   href={project.link} 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center text-terminal-green hover:text-terminal-green-light transition-colors duration-200"
                 >
-                  View Project
+                  View Repository
                   <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                   </svg>
