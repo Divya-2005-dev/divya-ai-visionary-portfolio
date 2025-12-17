@@ -61,6 +61,22 @@ const PublicationsSection = () => {
             
             <div className="space-y-4">
               <div className="border-l-2 border-terminal-green pl-4">
+                <h4 className="text-lg font-medium text-white">2025-26 Academic Year</h4>
+                <p className="text-terminal-light-gray">GPA: 9.10 (Currently)</p>
+                <div className="mt-2 h-2 bg-terminal-gray rounded-full">
+                  <div className="bg-terminal-green h-full rounded-full" style={{ width: '91%' }}></div>
+                </div>
+              </div>
+              
+              <div className="border-l-2 border-terminal-green pl-4">
+                <h4 className="text-lg font-medium text-white">2024-25 Academic Year</h4>
+                <p className="text-terminal-light-gray">GPA: 9.1</p>
+                <div className="mt-2 h-2 bg-terminal-gray rounded-full">
+                  <div className="bg-terminal-green h-full rounded-full" style={{ width: '91%' }}></div>
+                </div>
+              </div>
+              
+              <div className="border-l-2 border-terminal-green pl-4">
                 <h4 className="text-lg font-medium text-white">2023-24 Academic Year</h4>
                 <p className="text-terminal-light-gray">GPA: 9.04</p>
                 <div className="mt-2 h-2 bg-terminal-gray rounded-full">
