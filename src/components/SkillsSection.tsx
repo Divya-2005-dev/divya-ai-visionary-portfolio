@@ -4,23 +4,23 @@ import { useEffect, useRef } from 'react';
 const skillCategories = [
   {
     category: "Programming Languages",
-    skills: ["Python", "JavaScript", "C++"]
+    skills: ["Python", "JavaScript", "HTML", "CSS"]
   },
   {
     category: "Frameworks",
-    skills: ["React"]
+    skills: ["React", "Django"]
   },
   {
     category: "Core Expertise",
-    skills: ["Prompt Engineering", "Machine Learning", "NLP", "Generative AI"]
+    skills: ["Prompt Engineering", "Machine Learning", "NLP"]
   },
   {
     category: "Tools",
-    skills: ["Mongoose", "MongoDB", "Node.js", "Razorpay", "Axios"]
+    skills: ["Mongoose", "MongoDB", "Node.js"]
   },
   {
     category: "Soft Skills",
-    skills: ["Creative Thinking", "Time Management", "Problem Solving"]
+    skills: ["Creative Thinking", "Time Management", "Problem Solving", "Decision Making"]
   }
 ];
 

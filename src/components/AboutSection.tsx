@@ -38,7 +38,7 @@ const AboutSection = () => {
             <h3 className="text-xl font-semibold mb-4 text-terminal-green">Who I Am</h3>
             
             <p className="mb-4 text-terminal-light-gray">
-              Currently pursuing my BE in Electronics and Communication Engineering at Anna University (2022-2026), I maintain a strong academic record with a CGPA of 9.08. My academic foundation has equipped me with a deep understanding of technical systems, which I combine with my passion for software development.
+              Currently pursuing my BE in Electronics and Communication Engineering at Anna University (2022-2026), I maintain a strong academic record with a CGPA of 9.10 (currently). My academic foundation has equipped me with a deep understanding of technical systems, which I combine with my passion for software development.
             </p>
             
             <p className="mb-4 text-terminal-light-gray">
