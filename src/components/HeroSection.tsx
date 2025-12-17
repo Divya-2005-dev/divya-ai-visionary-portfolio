@@ -38,7 +38,7 @@ const HeroSection = () => {
 
             <div className="h-12 mb-6 overflow-hidden">
               <p className="text-lg md:text-2xl font-mono text-white border-r-2 border-terminal-green whitespace-nowrap overflow-hidden animate-typing animate-blink-caret">
-                Full Stack Developer & AI Specialist
+                Full Stack Developer with Python & Machine Learning Engineer
               </p>
             </div>
 
