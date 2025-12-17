@@ -1,5 +1,10 @@
 
 import { useEffect, useRef } from 'react';
+import projectNovanest from '@/assets/project-novanest.jpg';
+import projectProductivity from '@/assets/project-productivity.jpg';
+import projectTextToImage from '@/assets/project-text-to-image.jpg';
+import projectHealthTracker from '@/assets/project-health-tracker.jpg';
+import projectSmartLock from '@/assets/project-smart-lock.jpg';
 
 const projects = [
   {
@@ -8,15 +13,15 @@ const projects = [
     description: "Implemented core career tools (90%) including Resume Builder, Mock Tests, and Mock Interview modules to boost student readiness and skill growth. Ensured 95% seamless navigation and responsiveness with optimized Vercel deployment.",
     technologies: ["React", "JavaScript", "Node.js", "Django", "JWT Auth", "Vercel"],
     link: "https://github.com/Divya-2005-dev/novanest.git",
-    image: "placeholder.svg"
+    image: projectNovanest
   },
   {
     title: "AI-Powered Personal Productivity",
     duration: "SEP 2025",
     description: "Built an AI-driven productivity dashboard for managing tasks, notes, and reminders efficiently. Added smart suggestions and progress tracking to boost user focus and productivity.",
     technologies: ["React", "AI/ML", "Node.js"],
-    link: "#",
-    image: "placeholder.svg"
+    link: "https://github.com/Divya-2005-dev/mind-spark-desk.git",
+    image: projectProductivity
   },
   {
     title: "Text-to-Image Converter",
@@ -24,7 +29,7 @@ const projects = [
     description: "An advanced web application that transforms textual descriptions into high-quality images using AI. Includes user authentication, secure payment integration, and responsive design.",
     technologies: ["React", "Node.js", "Mongoose", "Razorpay"],
     link: "https://github.com/Divya-2005-dev/texttoimageapp.git",
-    image: "placeholder.svg"
+    image: projectTextToImage
   },
   {
     title: "Health Tracker",
@@ -32,7 +37,7 @@ const projects = [
     description: "A comprehensive health monitoring system that leverages sensor APIs to track physical activity, heart rate, and other health metrics in real-time.",
     technologies: ["HTML", "CSS", "JavaScript", "Sensor APIs"],
     link: "https://github.com/Divya-2005-dev/texttoimageapp.git",
-    image: "placeholder.svg"
+    image: projectHealthTracker
   },
   {
     title: "Smart Door Lock System",
@@ -40,7 +45,7 @@ const projects = [
     description: "An IoT-based security system utilizing Arduino and ultrasonic sensors to provide intelligent, proximity-based door locking mechanisms for enhanced home safety.",
     technologies: ["Arduino", "Ultrasonic sensors", "C++"],
     link: "#",
-    image: "placeholder.svg"
+    image: projectSmartLock
   }
 ];
 
